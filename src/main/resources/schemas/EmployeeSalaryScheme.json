@@ -1,0 +1,30 @@
+{
+  "type": "record",
+  "name": "EmployeeSalary",
+  "fields": [
+    {
+      "name": "employee_id",
+      "type": [
+        "int"
+      ]
+    },
+    {
+      "name": "department_id",
+      "type": [
+        "int"
+      ]
+    },
+    {
+      "name": "salary",
+      "type": [
+        "int"
+      ]
+    },
+    {
+      "name": "timpestamp",
+      "type": [
+        "long"
+      ]
+    }
+  ]
+}
